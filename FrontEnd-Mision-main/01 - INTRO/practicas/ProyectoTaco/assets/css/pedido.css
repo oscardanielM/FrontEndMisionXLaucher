@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background-color: #0B0426;
+}
+
+.text1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 15px #9F3FD5;
+    /* text-shadow: 0px 0px 15px #00D517; */
+    /* text-shadow: 0px 0px 23px #81D543; */
+}
+
+.container-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90vw - 2vw;
+    margin: 2vw;
+}
+
+.datosTacos{
+    margin-top: 2vw;
+    width: 60vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start ;
+}
+
+.contentInp{
+    width: 20vw;
+    
+}
+
+.contentText{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 60vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.contentBtn{
+    width: 30vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+a {
+    width: 10vw;
+      background: none;
+      border: 4px solid #fff;
+      border-radius: 10px;
+      color: #fff;
+      display: block;
+      padding: 0.2vw;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+}
+a::before,
+a::after {
+  width: 5vw;
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+a:hover {
+  color: #0B0426;
+  size: 1.5em;
+}
+
+.button3::after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+}
+.button3:hover:after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+
+button {
+    width: 10vw;
+      background: none;
+      border: 4px solid #fff;
+      border-radius: 10px;
+      color: #fff;
+      display: block;
+      padding: 0.2vw;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+}
+button::before,
+button::after {
+  width: 5vw;
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+button:hover {
+  color: #0B0426;
+  size: 1.5em;
+}
