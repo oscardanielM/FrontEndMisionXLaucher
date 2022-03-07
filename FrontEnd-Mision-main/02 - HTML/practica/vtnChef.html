@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Cake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/vtnChef.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+    <nav>
+        <div class="titleNav">
+            Space Cake
+        </div>
+        <!-- <div class="btnInicia">
+            <a href="#ex2"  rel="modal:open"><button>Iniciar sesion</button></a>
+        </div> -->
+        <div class="btnRealizaPedido">
+            <a href="vtnUser.html"><button>Realiza pedido</button></a>
+        </div>
+        <div class="btnMuestaPedidos">
+            <a href="vtnChef.html"><button>Muestra pedidos</button></a>
+        </div>
+    </nav>
+    <section class="grid-container">
+        <div class="grid-container1">
+            <div class="grid-item">
+                <div class="item-menu">Pedidos</div>
+            </div>
+        </div>
+        <div class="grid-container2">
+            <div class="grid-item" style="font-size: 1em !important;">
+                <table id="example" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Cliente</th>
+                            <th>Pedido</th>
+                            <th>Precio</th>
+                            <th>Direccion</th>
+                            <th>Numero</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01-01-2022</td>
+                            <td>Isabel Corona Mesa</td>
+                            <td>Pastel de: Tres leches y Café con adorno de: Letrero de Happy Birthday, Velas con numero y Pistola de confeti</td>
+                            <td>$ 1450</td>
+                            <td>Cto. Maye, El Maye, 42320 Ixmiquilpan, Hgo.</td>
+                            <td>5569855858</td>
+                        </tr>
+                        <tr>
+                            <td>10-02-2022</td>
+                            <td>Juan Hernandez Lopez</td>
+                            <td>Pastel de: Zarzamora con adorno de: Dibujo mediano de BobEsponja</td>
+                            <td>$800</td>
+                            <td>Av. Mezquital, 42323 Hgo.</td>
+                            <td>7758484488</td>
+                        </tr>
+                        <tr>
+                            <td>06-03-2022</td>
+                            <td>Pedro Hernandez Ruiz</td>
+                            <td>Pastel: Natural con adorno de: Letrero de Happy Birthday y Luces</td>
+                            <td>$700</td>
+                            <td>Mexico - Laredo 88-A, 42323 Dios Padre, Hgo.</td>
+                            <td>5569855858</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <div class="grid-footer">
+            <div class="grid-item">
+                <p>Horarios: Lunes a Viernes de 08:00 am a 05:00 pm</p>
+                <p>Tel: (55) 6759-5979</p>
+                <p>Direccion: Ixmiquilpan Hgo, Colonia centro</p>
+            </div>
+            <div class="grid-item">
+                <a href="https:www.facebook.com/oscardaniel.matinesgonzalez/" class="colorFace"><i class="fa-brands fa-facebook"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://wa.me/525567595979/?text=Holi" class="colorWhats"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://www.instagram.com/oscar.tkd.2/" class="colorInstagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="ex2" class="modal">
+        <form action="" class="formContent">
+            <div class="grid-login">
+                <div class="grid-item-1 login">
+                    <label for="registro">Login</label>
+                </div>
+                <div class="grid-item-1">
+                    <input type="email" id="Correo" placeholder="Correo" required>
+                </div>
+                <div class="grid-item-1">
+                    <input type="password" id="Contraseña" placeholder="Contraseña" required>
+                </div>
+                <div class="grid-item-1 btn-ingresa">
+                    <button type="submit">Entrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/e21cd28740.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="js/vtnChef.js"></script>
+</html>

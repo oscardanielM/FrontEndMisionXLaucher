@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Cake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="titleNav">
+            Space Cake
+        </div>
+        <!-- <div class="btnInicia">
+            <a href="#ex2"  rel="modal:open"><button>Iniciar sesion</button></a>
+        </div> -->
+        <div class="btnRealizaPedido">
+            <a href="vtnUser.html"><button>Realiza pedido</button></a>
+        </div>
+        <div class="btnMuestaPedidos">
+            <a href="vtnChef.html"><button>Muestra pedidos</button></a>
+        </div>
+    </nav>
+    <section class="grid-container">
+        <div class="grid-container1">
+            <div class="grid-item">
+                <img src="assets/SpaceCake.png" alt="logo">
+            </div>
+        </div>
+        <div class="grid-container2">
+            <div class="grid-item">
+                <h1>Catalogo</h1>
+            </div>
+            <div class="grid-item">
+                <div>
+                    <h2>Sabores de pasteles</h2>
+                    <ul>
+                        <br>
+                        <li>Tres leches...........$500</li>
+                        <li>Vainilla.....................$150</li>
+                        <li>Chocolate.............$150</li>
+                        <li>Zarzamora............$550</li>
+                        <li>Moka........................$350</li>
+                        <li>Café.........................$350</li>
+                        <li>Galleta....................$300</li>
+                        <li>Natural..................$100</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-item">
+                <h2>Adornos de pasteles (letreros, adorno)</h2>
+                <ul>
+                    <br>
+                    <li>Letrero de Happy Birthday.....$250</li>
+                    <li>Letrero de felicidades.....$250</li>
+                    <li>Letrero de aniversario.....$250</li>
+                    <li>Velas con numero.....$250</li>
+                </ul>
+                <br>
+                <h2>Adornos de pasteles (Dibujos)</h2>
+                <ul>
+                    <br>
+                    <li>Dibujo mediano de BobEsponja.....$250</li>
+                    <li>Dibujo grande de Iroman.....$250</li>
+                    <li>Dibujo chico de un Astronauta<.....$250/li>
+                </ul>
+                <br>
+                <h3>Pirotecnia</h3>
+                <ul>
+                    <br>
+                    <li>Luces.....$350</li>
+                    <li>Pistola de confeti.....$350</li>
+                </ul>
+            </div>
+            <!-- <div class="grid-item">
+                <a href="#ex1"  rel="modal:open"><button class="btnRegister">Registrarse</button></a>
+            </div> -->
+        </div>
+    </section>
+    <footer>
+        <div class="grid-footer">
+            <div class="grid-item">
+                <p>Horarios: Lunes a Viernes de 08:00 am a 05:00 pm</p>
+                <p>Tel: (55) 6759-5979</p>
+                <p>Direccion: Ixmiquilpan Hgo, Colonia centro</p>
+            </div>
+            <div class="grid-item">
+                <a href="https:www.facebook.com/oscardaniel.matinesgonzalez/" class="colorFace"><i class="fa-brands fa-facebook"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://wa.me/525567595979/?text=Holi" class="colorWhats"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://www.instagram.com/oscar.tkd.2/" class="colorInstagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="ex1" class="modal">
+        <form action="" class="formContent">
+            <div class="grid-register">
+                <div class="grid-item-1 Registrarse">
+                    <label for="registro">Registro</label>
+                </div>
+                <div class="grid-item-2">
+                    <input type="text" id="Nombre" placeholder="Nombre" required>
+                </div>
+                <div class="grid-item-2">
+                    <input type="text" id="Apellidos" placeholder="Apellidos" required>
+                </div>
+                <div class="grid-item-1">
+                    <input type="email" id="Correo" placeholder="Correo" required>
+                </div>
+                <div class="grid-item-1">
+                    <input type="tel" id="Telefono" placeholder="Teléfono" required>
+                </div>
+                <div class="grid-item-1">
+                    <input type="password" id="Contraseña" placeholder="Contraseña" required>
+                </div>
+                <div class="grid-item-2 btn-limpiar">
+                    <button type="reset"><i class="fa-solid fa-broom"></i>&nbsp;&nbsp;Limpiar</button>
+                </div>
+                <div class="grid-item-2 btn-registra">
+                    <button type="submit">Registrar&nbsp;&nbsp;<i class="fa-solid fa-user-plus"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="ex2" class="modal">
+        <form action="" class="formContent">
+            <div class="grid-login">
+                <div class="grid-item-1 login">
+                    <label for="registro">Login</label>
+                </div>
+                <div class="grid-item-1">
+                    <input type="email" id="Correo" placeholder="Correo" required>
+                </div>
+                <div class="grid-item-1">
+                    <input type="password" id="Contraseña" placeholder="Contraseña" required>
+                </div>
+                <div class="grid-item-1 btn-ingresa">
+                    <button type="submit">Entrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/e21cd28740.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</html>

@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+body{
+    background-image: url("../assets/19333449.jpg");
+    background-size:auto;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: #140822;
+    display: flex;
+    
+}
+
+nav .titleNav{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Grand Hotel', cursive !important;
+}
+
+nav .btnInicia{
+    width: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2%;
+}
+
+nav .btnInicia a{
+    width: 100%;
+}
+
+nav .btnInicia a button{
+    width: 100%;
+    font-size: 1.1em;
+    border: 5px solid #18F2B2;
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    color: #18F2B2;
+    padding: 1.5%;
+    font-family: 'Fredoka', sans-serif;
+}
+
+nav .btnInicia a button:hover{
+    background-color: #18F2B2;
+    color: black;
+    -webkit-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -moz-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -o-transition: all 1s 0s ease, all 0.5s 0s ease;
+    transition: all 1s 0s ease, all 0.5s 0s ease;
+}
+
+nav .btnRealizaPedido{
+    width: 15%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2%;
+}
+
+nav .btnRealizaPedido a{
+    width: 100%;
+}
+
+nav .btnRealizaPedido a button{
+    width: 100%;
+    font-size: 1.1em;
+    border: 5px solid #18F2B2;
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    color: #18F2B2;
+    padding: 1.5%;
+    font-family: 'Fredoka', sans-serif;
+}
+
+nav .btnRealizaPedido a button:hover{
+    background-color: #18F2B2;
+    color: black;
+    -webkit-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -moz-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -o-transition: all 1s 0s ease, all 0.5s 0s ease;
+    transition: all 1s 0s ease, all 0.5s 0s ease;
+}
+
+nav .btnMuestaPedidos{
+    width: 15%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2%;
+}
+
+nav .btnMuestaPedidos a{
+    width: 100%;
+}
+
+nav .btnMuestaPedidos a button{
+    width: 100%;
+    font-size: 1.1em;
+    border: 5px solid #18F2B2;
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    color: #18F2B2;
+    padding: 1.5%;
+    font-family: 'Fredoka', sans-serif;
+}
+
+nav .btnMuestaPedidos a button:hover{
+    background-color: #18F2B2;
+    color: black;
+    -webkit-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -moz-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -o-transition: all 1s 0s ease, all 0.5s 0s ease;
+    transition: all 1s 0s ease, all 0.5s 0s ease;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.grid-container1 .grid-item{
+    padding: 2.5%;
+    padding-left: 5%;
+}
+
+.grid-container1 .grid-item:nth-child(1) img{
+    width: 90%;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns:50% 50%;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 2%;
+}
+
+.grid-container2 .grid-item:nth-child(1){
+    padding-top: 0.5%;
+    margin-bottom: 6%;
+    font-size: 2em;
+    grid-column: 1 /  span 2;
+    grid-row: 1;
+}
+
+.grid-container2 .grid-item:nth-child(2) li{
+    list-style: none;
+    padding-top: 0.5%;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.grid-container2 .grid-item:nth-child(3) li{
+    list-style: none;
+    padding-top: 0.5%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid-container2 .grid-item:nth-child(4){
+    padding-top: 0.5%;
+    grid-column: 1 /  span 2;
+    grid-row: 3;
+}
+
+.btnRegister{
+    width: 30%;
+    font-size: 1.1em;
+    margin-top: 2%;;
+    background-color: #140822;
+    border-radius: 20px 20px 20px 20px;
+    color: #18F2B2;
+    padding: 1.5%;
+    font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+}
+
+
+footer{
+    width: 100% - 2%;
+    padding: 2%;
+    color: #18F2B2;
+    background-color: #140822;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.grid-footer .grid-item:nth-child(2){
+    text-align: center;
+}
+
+.grid-footer .grid-item:nth-child(2){
+    text-align: center;
+}
+
+.grid-footer .grid-item:nth-child(2) i{
+    text-align: center;
+    font-size: 3em;
+    padding: 1%;
+}
+
+.colorFace{
+    color: #3b5998;
+}
+
+.colorInstagram{
+    color: #125688;
+}
+
+.colorWhats{
+    color: #4dc247;
+}
+
+.formContent{
+    width: 100%;
+}
+
+.grid-register{
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin-top: 2%;
+    font-family: 'Fredoka', sans-serif;
+    grid-column-gap:2%;
+}
+
+.grid-register .grid-item-1, .grid-register .grid-item-2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.grid-register .grid-item-1{
+    grid-column: span 2;
+}
+
+.grid-register .grid-item-2{
+    grid-column: span 1;
+}
+
+.grid-register .grid-item-1 label{
+    font-size: 1.1em;
+    margin-bottom: 1%;
+}
+
+.grid-register .grid-item-2 label{
+    font-size: 1.1em;
+    margin-bottom: 1%;
+}
+
+.grid-register .grid-item-1 input{
+    width: 87%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.grid-register .grid-item-2 input{
+    width: 86%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.grid-register .grid-item-1 button{
+    width: 87%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.grid-register .grid-item-2 button{
+    width: 86%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.Registrarse{
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+
+#ex1{
+    background-color: rgba(20, 8, 34, 0.5);
+}
+
+.btn-limpiar{
+    text-align: center;
+}
+
+.btn-limpiar button{
+    color: black;
+    background-color: #18F2B2;
+}
+
+.btn-registra{
+    text-align: center;
+}
+
+.btn-registra button{
+    color: white;
+    background-color: #B2ABF2;
+}
+
+
+.grid-login{
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin-top: 2%;
+    font-family: 'Fredoka', sans-serif;
+    grid-column-gap:2%;
+}
+
+
+.grid-login .grid-item-1, .grid-login .grid-item-2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.grid-login .grid-item-1{
+    grid-column: span 2;
+}
+
+.grid-login .grid-item-2{
+    grid-column: span 1;
+}
+
+.grid-login .grid-item-1 label{
+    font-size: 1.1em;
+    margin-bottom: 1%;
+}
+
+.grid-login .grid-item-2 label{
+    font-size: 1.1em;
+    margin-bottom: 1%;
+}
+
+.grid-login .grid-item-1 input{
+    width: 87%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.grid-login .grid-item-2 input{
+    width: 86%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.grid-login .grid-item-1 button{
+    width: 87%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.grid-login .grid-item-2 button{
+    width: 86%;
+    padding: 1% 6% 1% 6%;
+    border-color:aliceblue;
+    margin-top: 2%;
+    font-size: 1.3em;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #39c;
+}
+
+.login{
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+
+#ex2{
+    background-color: rgba(20, 8, 34, 0.7);
+}
+
+.btn-ingresa{
+    text-align: center;
+}
+
+.btn-ingresa button{
+    width: 50%!important;
+    color: white;
+    background-color: #B2ABF2;
+}
+

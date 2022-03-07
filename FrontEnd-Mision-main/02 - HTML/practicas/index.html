@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceCake</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Space Cake</h1>
+        <br>
+    </div>
+    <section class="grid-container">
+        <div class="grid-item">
+            <div class="">
+                <h2>Sabores de pasteles</h2>
+                <ul>
+                    <br>
+                    <li>Tres leches...........$500</li>
+                    <li>Vinilla.....................$150</li>
+                    <li>Chocolate.............$150</li>
+                    <li>Zarzamora............$550</li>
+                    <li>Moka........................$350</li>
+                    <li>Cafe.........................$350</li>
+                    <li>Galleta....................$300</li>
+                    <li>Natural..................$100</li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="./assets/SpaceCake.png" alt="logoempresa">
+        </div>
+        <div class="grid-item">
+            <div>
+                <h2>Adornos de pasteles (letreros, adorno)</h2>
+                <ul>
+                    <br>
+                    <li>Letrero de Happy Birthday</li>
+                    <li>Letrero de felicidades</li>
+                    <li>Letrero de aniversario</li>
+                    <li>Velas con numero</li>
+                </ul>
+                <br>
+                <h2>Adornos de pasteles (Dibujos)</h2>
+                <ul>
+                    <br>
+                    <li>Dibujo mediano de BobEsponja</li>
+                    <li>Dibujo grande de Iroman</li>
+                    <li>Dibujo chico de un Astronauta</li>
+                </ul>
+                <br>
+                <h3>Pirotecnia</h3>
+                <ul>
+                    <br>
+                    <li>Luces</li>
+                    <li>Pistola de confeti</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <div class="divBtn">
+        <button id="btnPedido" type="button" class="hacepedido" >Generar pedido</button>
+        <a href="#" data-izimodal-open="#modal1" data-izimodal-transitionin="fadeInDown">asd</a>
+    </div>
+    <br><br>
+    <footer>
+        <div class="grid-footer">
+            <div class="grid-item">
+                <p>Horarios: Lunes a Viernes de 08:00 am a 05:00 pm</p>
+                <p>Tel: (55) 6759-5979</p>
+                <p>Direccion: Ixmiquilpan Hgo, Colonia centro</p>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/SpaceCake.png" alt="logoempresa">
+            </div>
+            <div class="grid-item">
+                <a href="https:www.facebook.com/oscardaniel.matinesgonzalez/"><i class="fa-brands fa-facebook"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://api.whatsapp.com/send?abid=+525567595979&text=Hola"><i class="fa-brands fa-whatsapp"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://www.instagram.com/oscar.tkd.2/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal1"  data-iziModal-title="Welcome"  data-iziModal-icon="icon-home"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
+        <form action="">
+            <label for="Nombre"></label>
+            <input type="text">
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js" integrity="sha512-8aOKv+WECF2OZvOoJWZQMx7+VYNxqokDKTGJqkEYlqpsSuKXoocijXQNip3oT4OEkFfafyluI6Bm6oWZjFXR0A==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e21cd28740.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

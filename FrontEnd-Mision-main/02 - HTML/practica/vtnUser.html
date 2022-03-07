@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Cake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/vtnUser.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="titleNav">
+            Space Cake
+        </div>
+        <div class="btnInicia">
+            <a href="index.html"><button>Regresar</button></a>
+        </div>
+    </nav>
+    <section class="grid-container">
+        <div class="grid-container1">
+            <div class="grid-item">
+                <div class="item-menu">Pedido</div>
+            </div>
+        </div>
+        <div class="grid-container2">
+
+            <div class="grid-item">
+                <h1>Pedido</h1>
+                <form action="">
+                    <div class="grid-pedido">
+                        <div class="grid-item-2">
+                            <input type="text" id="Nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="grid-item-2">
+                            <input type="text" id="Apellido" placeholder="Apellido" required>
+                        </div>
+                        <div class="grid-item-2">
+                            <input type="tel" id="Numero" placeholder="Numero" required>
+                        </div>
+                        <div class="grid-item-2">
+                            <input type="email" id="Correo" placeholder="Correo" required>
+                        </div>
+                        <div class="grid-item-1">
+                            <input type="text" id="Direccion" placeholder="Direccion" required>
+                        </div>
+                        <div class="grid-item-1">
+                            <ul>
+                                <h3>Sabores</h3>
+                                <div class="lisDiv">
+                                    <li>
+                                        <input name="chk1" type="checkbox" value="1">
+                                        <label for="chk1">Tres leches&nbsp;&nbsp;&nbsp;$500</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk2" type="checkbox" value="1">
+                                        <label for="chk2">Vainilla&nbsp;&nbsp;&nbsp;$150</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk3" type="checkbox" value="1">
+                                        <label for="chk3">Chocolate&nbsp;&nbsp;&nbsp;$150</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk4" type="checkbox" value="1">
+                                        <label for="chk4">Zarzamora&nbsp;&nbsp;&nbsp;$550</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk5" type="checkbox" value="1">
+                                        <label for="chk5">Moka&nbsp;&nbsp;&nbsp;$350</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk6" type="checkbox" value="1">
+                                        <label for="chk6">Café&nbsp;&nbsp;&nbsp;$350</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk7" type="checkbox" value="1">
+                                        <label for="chk7">Galleta&nbsp;&nbsp;&nbsp;$300</label>
+                                    </li>
+                                    <li>
+                                        <input name="chk8" type="checkbox" value="1">
+                                        <label for="chk8">Natural&nbsp;&nbsp;&nbsp;$100</label>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="grid-item-1" style="display:inline-flex;">
+                            <div class="selctAdorno">
+                                <h4>Adornos de pasteles (letreros, adorno)</h4>
+                                <select name="sl1" id="sl1" multiple>
+                                    <br>
+                                    <option>Letrero de Happy Birthday.....$250</option>
+                                    <option>Letrero de felicidades.....$250</option>
+                                    <option>Letrero de aniversario.....$250</option>
+                                    <option>Velas con numero.....$250</option>
+                                </select>
+                            </div>
+                            <div class="selctAdorno">
+                                <h4>Adornos de pasteles (Dibujos)</h4>
+                                <select name="sl2" id="sl2" multiple>
+                                    <br>
+                                    <option>Dibujo mediano de BobEsponja.....$250</option>
+                                    <option>Dibujo grande de Iroman.....$250</option>
+                                    <option>Dibujo chico de un Astronauta<.....$250 /option>
+                                </select>
+                            </div>
+                            <div class="selctAdorno">
+                                <h4>Pirotecnia <br>(Luces)</h4>
+                                <select name="sl3" id="sl3" multiple>
+                                    <br>
+                                    <option>Luces.....$350</option>
+                                    <option>Pistola de confeti.....$350</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-item-1">
+                            <button type="reset" style="display: none;" id="btnReset"></button>
+                            <button class="btnHP" id="btnHP">
+                                Hacer pedido
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="grid-footer">
+            <div class="grid-item">
+                <p>Horarios: Lunes a Viernes de 08:00 am a 05:00 pm</p>
+                <p>Tel: (55) 6759-5979</p>
+                <p>Direccion: Ixmiquilpan Hgo, Colonia centro</p>
+            </div>
+            <div class="grid-item">
+                <a href="https:www.facebook.com/oscardaniel.matinesgonzalez/" class="colorFace"><i
+                        class="fa-brands fa-facebook"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://wa.me/525567595979/?text=Holi" class="colorWhats"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="https://www.instagram.com/oscar.tkd.2/" class="colorInstagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/e21cd28740.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="js/vtnUser.js"></script>
+
+</html>

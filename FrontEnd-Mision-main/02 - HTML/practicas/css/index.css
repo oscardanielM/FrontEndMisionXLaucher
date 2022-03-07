@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+     /* font-family: 'Fredoka', sans-serif;  */
+     /* font-family: 'Bungee Shade', cursive !important; */
+    /* font-family: 'Audiowide', cursive; */
+}
+
+body{
+    background-image: url("../assets/19333449.jpg");
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 1.8em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Grand Hotel', cursive;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.grid-item{
+    padding: 2.5%;
+    padding-left: 5%;
+}
+
+.grid-item div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px 30px 30px 30px;
+    padding: 2.5%;
+}
+
+.grid-item:nth-child(1) li{
+    list-style: none;
+    padding-top: 0.5%;
+}
+
+.grid-item:nth-child(2) img{
+    width: 90%;
+}
+
+.grid-item:nth-child(3) li{
+    list-style: none;
+    padding-top: 0.5%;
+}
+
+.divBtn{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.divBtn .hacepedido{
+    width: 20%;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px 0px 25px;
+}
+
+.divBtn .hacepedido:hover{
+    background-color: #29193B;
+    color: white;
+    border: solid 2px ;
+    -webkit-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -moz-transition: all 1s 0s ease, all 0.5s 0s ease;
+    -o-transition: all 1s 0s ease, all 0.5s 0s ease;
+    transition: all 1s 0s ease, all 0.5s 0s ease;
+}
+
+footer{
+    width: 100% - 2%;
+    padding: 2%;
+    color: white;
+    background-color: #0F0A16;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    align-items: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.grid-footer .grid-item:nth-child(2){
+    text-align: center;
+}
+
+.grid-footer .grid-item:nth-child(2) img{
+    width: 20%;
+}
+
+.grid-footer .grid-item:nth-child(3){
+    text-align: center;
+}
+
+.grid-footer .grid-item:nth-child(3) i{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding: 1%;
+}
