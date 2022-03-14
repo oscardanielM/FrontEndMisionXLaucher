@@ -1,0 +1,442 @@
+
+.btn-primary {
+    color: #fff;
+    background-color: #0048b3;
+    border-color: #0d6efd;
+}
+
+.navbarText{
+    background-color: rgba(white, white, white, 0.5);
+}
+
+.navBarTextItem{
+    margin-right: 3.5%;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Fredoka', sans-serif;
+    color: gray;
+}
+.navBarTextItem:first-child{
+    margin-left: 7%;
+    margin-right: 30%;
+    color: #0d6efd;
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBarTextItem:first-child a{
+    text-decoration: none;
+}
+
+.navBarTextItem:last-child{
+    font-weight: 500;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    width: 10%;
+}
+
+.navBarTextItem:last-child a{
+    /* width: 100%; */
+    /* padding: 6%; */
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.textUno{
+    background-image: url("../assets/triangulo.svg");
+    background-size: cover;
+}
+
+.textUno div:first-child{
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.textUno h1{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    color: #411771;
+}
+
+.textUno p{
+    font-size: 1.4em;
+    font-family: 'Fredoka', sans-serif;
+    color:lightseagreen;
+}
+
+.btnIcons1 svg{
+    padding: 1%;
+    background-color:lemonchiffon;
+    color: gold;
+    box-shadow: 0px 0px 12px -2px rgba(255,215,0,0.92);
+-webkit-box-shadow: 0px 0px 12px -2px rgba(255,215,0,0.92);
+-moz-box-shadow: 0px 0px 12px -2px rgba(255,215,0,0.92);
+}
+
+.btnIcons1{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.btnIcons2 svg{
+    padding: 0.9%;
+    background-color:#e0ebf5;
+    color: rgb(80, 21, 149);
+    box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+}
+
+.btnIcons1 span{
+    color: #411771;
+    margin-left: 2%;
+    font-weight: 500;
+}
+
+.btnIcons2{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 30%;
+    margin-bottom: 40%;
+}
+
+.btnIcons2 span{
+    font-size: 1.2em;
+    color: #411771;
+    font-weight: 500;
+    margin-left: 2%;
+}
+
+.imgFontEnfermera{
+    background-image: url("../assets/enfermera.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.divFlotante{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -10%;
+    margin-bottom: 5%;
+    margin-left: 10.5%;
+    height: auto;
+    box-shadow: 0px 0px 18px -6px rgba(65,23,113,0.92);
+    -webkit-box-shadow: 0px 0px 18px -6px rgba(65,23,113,0.92);
+    -moz-box-shadow: 0px 0px 18px -6px rgba(65,23,113,0.92);
+}
+.divFlotante .rowCols{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.imgVacunas{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.imgVacunas img{
+    width: 48%;
+    opacity: 0.15;
+    cursor: pointer;
+}
+
+.imgVacunas img:hover{
+    width: 50%;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.contImgVacunas{
+    margin-bottom: 1%;
+}
+
+.divsIconsLests{
+    display: flex;
+}
+
+.divsIconsLests svg{
+    width: 13px;
+    height: 13px;
+    padding: 3%;
+    size: 0.4em;
+    background-color:#e0ebf5;
+    color: #0d6efd;
+    box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+}
+
+.divsIconsLests span{
+    color: lightseagreen;
+    font-family: 'Fredoka', sans-serif;
+    padding-left: 4%;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.divsIconsLests:last-child{
+    justify-content: center;
+}
+
+.divsIconsLests button{
+    padding: 5%;
+    width: 60%;
+}
+
+.divsText{
+    font-size: 1.3em;
+    color: #411771;
+    font-weight: 700;
+    padding-left: 20%;
+}
+
+.divsText input{
+    width: 100%;
+    background-color: transparent;
+    color: #411771;
+    font-weight: 700;
+    border:none;
+}
+
+.divsText select{
+    width: 100%;
+    background-color: transparent;
+    color: #411771;
+    font-weight: 700;
+    border:none;
+}
+
+.text2Vaccine{
+    background-image: url("../assets/triangulo2.svg");
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+/* .text2Vaccine{
+    /* padding-left: 8%;
+    padding-right: 8%; 
+} */
+
+.textTitle2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #411771;
+}
+
+.textJutifica{
+    text-align: justify;
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+    font-size: 1.3em;
+}
+
+.contetTargetas{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.cardBody1 svg{
+    width: 25px;
+    height: 25px;
+    padding: 3%;
+    background-color:#e7e8ff;
+    color: #4d257a;;
+    box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+}
+
+.cardBody1 h5{
+    color: #411771;
+}
+
+.cardBody1 p{
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+}
+
+.cartGeneral:hover{
+    zoom: 1.01;
+    box-shadow: 1px 17px 31px -5px rgba(65,23,113,0.92);
+    -webkit-box-shadow: 1px 17px 31px -5px rgba(65,23,113,0.92);
+    -moz-box-shadow: 1px 17px 31px -5px rgba(65,23,113,0.92);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .text2Vaccine:last-child{
+    text-align: right;
+    background-image: url("../assets/triangulo3.svg") !important;
+} */
+
+.text2Vaccine:last-child .textJutifica{
+    margin-top: 1%;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.imagenEnfermera2{
+    width:100%;
+    margin-top: 3%;
+    margin-left: -2%;
+}
+
+
+.accordion-item{
+    margin-bottom: 4%;
+    border: none !important;
+}
+
+.accordion-item svg{
+    width: 10px;
+    height: 10px;
+    padding: 1%;
+    background-color:#e7e8ff;
+    color: #4d257a;;
+    box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(65,23,113,0.92);
+}
+
+.accordion-item .textAcordion{
+    color: #411771;
+    font-weight: 500;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.accordion-body{
+    text-align: justify;
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+    
+}
+
+.marginBottom{
+    margin-bottom: 3%;
+}
+
+.cardNewDesing{
+    border: 7px solid rgba(230, 230, 255, 0.2);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cardNewDesing:hover{
+    zoom: 1.1;
+    box-shadow: 0px -1px 63px -5px rgba(65,23,113,0.43);
+    -webkit-box-shadow: 0px -1px 63px -5px rgba(65,23,113,0.43);
+    -moz-box-shadow: 0px -1px 63px -5px rgba(65,23,113,0.43);
+}
+
+.cardBody2{
+    padding: 10%;
+}
+
+.cardBody2 svg{
+    width: 25px;
+    height: 25px;
+    padding: 18%;
+    background-color:#eff0ff;
+    color: #6508cf;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cardBody2 .spanTitle{
+    font-weight: 500;
+    font-size: 1.4em;
+    color: #411771;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.cardBody2 .spanText{
+    font-size: 0.8em;
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+}
+
+.cardBody2 .btnCall{
+    padding-top: 10%;
+}
+
+.cardBody2 .btnCall a{
+    width: 100%;
+    margin-top: 2%;
+    padding: 3%;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color:#eff0ff;
+    color: #6508cf;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cardBody2 .btnCall a:hover{
+    color:#eff0ff;
+    background-color: #6508cf;
+}
+
+footer{
+    background-color:#eff0ff;
+}
+
+footer h2{
+    color: #4d257a;;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+footer li{
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+.textVacation{
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #6508cf;;
+}
+
+.textExtra{
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+    font-weight: 400;
+}
+
+footer li a{
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+
+.padingTop{
+    margin-top: 3%;
+    padding-top: 2%;
+}
+
+footer small{
+    font-family: 'Fredoka', sans-serif;
+    color: lightseagreen;
+}
